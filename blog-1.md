@@ -1,8 +1,8 @@
-#The significance of union and intersection types in Typescript.
+# The significance of union and intersection types in Typescript.
 
-##Union Type:
+## Union Type:
 
--A union type is a type that allows a value to be one of several specified types, created by listing each type with the `|` (pipe) symbol between them. Union types are helpful when a variable or parameter could logically be more than one type, such as a string or a number, and they enable flexibility by permitting multiple possible types for a single value.
+- A union type is a type that allows a value to be one of several specified types, created by listing each type with the `|` (pipe) symbol between them. Union types are helpful when a variable or parameter could logically be more than one type, such as a string or a number, and they enable flexibility by permitting multiple possible types for a single value.
 
 Example of Union Type
 
@@ -13,7 +13,7 @@ value = 42;
 value = "Hello";       
 value = true;      
 
-###Significance of Intersection Types:
+### Significance of Intersection Types:
 
 - Union types allow variables or function parameters to accept multiple types when data can come in different forms.
   
@@ -24,9 +24,9 @@ value = true;
 - Union types ensure addressing all possible types, making your code more robust and error-free.
 
 
-##Intersection Type:
+## Intersection Type:
 
--An intersection type in TypeScript combines multiple types into a single type, meaning a value must satisfy all the types included. It is created using the `&` (ampersand) symbol. This allows you to create a new type that has all properties and methods of the intersected types, making it useful for combining traits or characteristics from multiple types into one.
+- An intersection type in TypeScript combines multiple types into a single type, meaning a value must satisfy all the types included. It is created using the `&` (ampersand) symbol. This allows you to create a new type that has all properties and methods of the intersected types, making it useful for combining traits or characteristics from multiple types into one.
 
 Example of Intersection Type:
 
@@ -42,7 +42,7 @@ let person: PersonWithContact = {
     phone: "123-456-7890"
 };
 
-###Significance of Intersection Types
+### Significance of Intersection Types
 
 - Intersection types allow  composing complex types from smaller ones, making it easy to build up complex data structures with reusable components.
 - By enforcing that all intersected types’ properties must exist, intersection types provide a way to ensure that an object meets multiple criteria.
