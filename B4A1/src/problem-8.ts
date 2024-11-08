@@ -1,7 +1,7 @@
 // problem-8:
 
-function validateKeys<T>(obj: T, keys: (keyof T)[]): boolean {
-    return keys.every(key => key in obj);
+const validateKeys = <T>(obj: T, keys: (keyof T)[]): boolean[] => {
+    return keys.map(key => key in obj);
 }
 
 // Sample Input

@@ -13,7 +13,7 @@ value = 42;
 value = "Hello";       
 value = true;      
 
-### Significance of Intersection Types:
+### Significance of Union Types:
 
 - Union types allow variables or function parameters to accept multiple types when data can come in different forms.
   
