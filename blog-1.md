@@ -22,3 +22,8 @@
 // - **Type Narrowing**: TypeScript helps to determine the specific type of a union value using `typeof` checks or custom logic. This allows to handle each type correctly. 
 
 // - **Improved Code Reliability**: Union types ensure addressing all possible types, making your code more robust and error-free.
+
+
+// Intersection Type:
+
+// An **intersection type** in TypeScript combines multiple types into a single type, meaning a value must satisfy all the types included. It is created using the `&` (ampersand) symbol. This allows you to create a new type that has all properties and methods of the intersected types, making it useful for combining traits or characteristics from multiple types into one.
